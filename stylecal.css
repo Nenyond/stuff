@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr  1fr 1fr 1fr 1fr;
+    border: 2px solid white;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.calendar > div {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+.days {
+    font-weight: bold;
+    align-self: center;
+    text-decoration: underline;
+}
